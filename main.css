@@ -1,0 +1,132 @@
+@font-face{
+    font-family: lora;
+    src: url('./Lora-Regular.ttf');
+}
+body{
+    background: #A5e585; 
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: lora;
+
+}
+html{
+    overflow: hidden;
+}
+nav {
+    position: fixed;
+    right: 25px;
+    z-index: 999;
+}
+li {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 0px 0px 35% 35%;
+    transition: .5s;
+}
+li:hover{
+    height: 40px;
+    line-height: 40px;
+}
+li a{
+    color:#fff;
+}
+li a:hover{
+    color: #eee;
+    text-decoration: none;
+}
+#m{
+    background: #E9D02F;
+}
+#f{
+    background:#60BED3;
+}
+#w{
+    background: #CB5052;
+}
+h2{
+    font-size: 29px;
+}
+.my{
+  margin-top: 40px; 
+}
+
+#anna {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 120px;
+    margin-right: 40px;
+    float: left;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.my h2{
+    margin-top: 10px;
+}
+.skill{
+    margin-top: 60px;
+
+}
+.skill img{
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    height: 55px;
+    width: 50px;
+}
+
+.block {
+    height: 55px;
+    margin-bottom: 15px;
+}
+.blockCss img{
+    width: 50px;
+    padding-left: 6px;
+    padding-right: 7px;
+}
+.blockEng img{
+    height: 50px;
+}
+
+.enterSkill {
+    padding-top: 20px;
+}
+.work1 img{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.forma{
+    margin-top: 60px;
+}
+.forma input[type="text"]{
+    margin-top: 25px;
+}
+.forma input{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.forma textarea{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);  
+}
+.forma input[type="submit"]{
+    margin-top: 25px;
+    margin-left: 160px;
+    border: none;
+    color: #fff;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+}

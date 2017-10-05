@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <script>
+        require('jquery');                            // подключение jquery
+        window.jQuery = window.$ = require('jquery')  // для работы $
+        window.Popper = require('popper.js')          // для работы bootstrap
+        require('bootstrap')
+    </script>
+</head>
+<body>
+    <nav>
+            <li id="m"><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Main" data-delay='{"show":"1000"}'>M</a></li>
+            <li id="f"><a href="feedback.html" data-toggle="tooltip" data-placement="bottom" title="Feedback" data-delay='{"show":"1000"}'>F</a></li>
+            <li id="w"><a href="work.html" data-toggle="tooltip" data-placement="bottom" title="Work" data-delay='{"show":"1000"}'>W</a></li>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col forma">
+                <form>
+                    <input type="email" class="form-control leftwow" placeholder="name@example.com" required>
+                    <input type="text" class="form-control rightwow" placeholder="Фамилия">
+                    <input type="text" class="form-control leftwow" placeholder="Имя">
+                
+            </div>
+            <div class="col forma">
+                
+                    <textarea class="form-control areal" rows="6" placeholder="Текст..." required></textarea>
+                    <input type="submit" class="bg-success btn1" value="ok">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+    $(".areal").addClass("animated zoomIn")
+    $(".leftwow").addClass("animated bounceInLeft")
+    $(".rightwow").addClass("animated bounceInRight")
+    $(".btn1").addClass("animated rotateIn")
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
+</body>
+</html>

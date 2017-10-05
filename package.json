@@ -1,0 +1,26 @@
+{
+  "name": "summary",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annablgkv/summary.git"
+  },
+  "author": "AnnStolyarova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annablgkv/summary/issues"
+  },
+  "homepage": "https://github.com/annablgkv/summary#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^4.0.0-beta",
+    "electron": "^1.7.8",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  }
+}
